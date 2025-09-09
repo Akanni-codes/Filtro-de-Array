@@ -1,0 +1,27 @@
+{
+  "name": "filtro-de-array",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akanni-codes/Filtro-de-Array.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Akanni-codes/Filtro-de-Array/issues"
+  },
+  "homepage": "https://github.com/Akanni-codes/Filtro-de-Array#readme",
+  "devDependencies": {
+    "@types/node": "^24.3.1",
+    "@types/readline-sync": "^1.4.8"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}

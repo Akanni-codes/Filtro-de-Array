@@ -22,18 +22,18 @@ export class ArraySimples {
     this._lista = lista;
   }
 
-  public removeDuplicado(lista:Array<any>){
-    let resultado:Array<any> = []
+  public removeDuplicado(lista: Array<any>) {
+    let resultado: Array<any> = [];
     for (let i = 0; i < lista.length; i++) {
-        const element = lista[i];
-        if (resultado.includes(element) === false) {
-            resultado.push(element)
-        }
+      const element = lista[i];
+      if (resultado.includes(element) === false) {
+        resultado.push(element);
+      }
     }
-    return console.log(resultado);
+    return (this._lista = resultado);
   }
 
   public visualizar() {
-    console.log("\n\nArray: " + this._lista );
+    console.log(`\n\n${this._Id}° Array : ` + this._lista);
   }
 }

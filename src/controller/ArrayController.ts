@@ -24,6 +24,7 @@ export class ArrayController implements ArrayRepository {
   }
 
   cadastrar(array: ArraySimples): void {
+    array.removeDuplicado(array.lista);
     this.listaArray.push(array);
     console.log("\nArray cadastrado com sucesso!");
   }
@@ -49,10 +50,6 @@ export class ArrayController implements ArrayRepository {
     } else {
       console.log("\nArray não encontrado para exclusão.");
     }
-  }
-
-  filtar(Id: number): void{
-    
   }
 
   public gerarId(): number {
